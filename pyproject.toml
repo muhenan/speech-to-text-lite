@@ -1,0 +1,17 @@
+[project]
+name = "speech-to-text-lite"
+version = "0.1.0"
+description = "Realtime speech-to-text web app using FastAPI and Whisper"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",  # ✅ 改成标准版以支持 WebSocket
+    "numpy",
+    "faster-whisper",
+    "pydub",  # 音频格式转换
+    "websockets",  # WebSocket 支持
+]
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
