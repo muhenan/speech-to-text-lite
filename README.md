@@ -30,6 +30,22 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 ```
 
+## 快速录音
+
+如果你需要录制音频，可以使用以下方法：
+
+### 使用终端命令（ffmpeg）
+
+```bash
+# 安装 ffmpeg（如果还没有安装）
+brew install ffmpeg
+
+# 录制 MP3 音频
+ffmpeg -f avfoundation -i ":0" -acodec libmp3lame output.mp3
+```
+
+按 `Ctrl + C` 停止录制。
+
 ## 使用方法
 
 ### 基本用法
