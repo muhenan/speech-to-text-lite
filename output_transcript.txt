@@ -1,0 +1,10 @@
+音频文件: /Users/muhenan/Downloads/output.mp3
+处理时间: 2025-10-21 19:32:33
+检测语言: en (100.00%)
+模型: small
+--------------------------------------------------
+
+
+==================================================
+完整文字:
+Hello, how are you doing? What's your name? I feel good. What's your name?
